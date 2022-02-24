@@ -1,0 +1,73 @@
+[{
+    "id": 1,
+    "task": "Get daughter ready for school",
+    "complete": true
+  }, {
+    "id": 2,
+    "task": "Walk daughter to school",
+    "complete": true
+  }, {
+    "id": 3,
+    "task": "Make coffee",
+    "complete": false
+  }, {
+    "id": 4,
+    "task": "Review emails",
+    "complete": true
+  }, {
+    "id": 5,
+    "task": "Work on projects",
+    "complete": false
+  }, {
+    "id": 6,
+    "task": "Review study material",
+    "complete": true
+  }, {
+    "id": 7,
+    "task": "Do laundry",
+    "complete": true
+  }, {
+    "id": 8,
+    "task": "Go to store",
+    "complete": false
+  }, {
+    "id": 9,
+    "task": "Get lunch",
+    "complete": true
+  }, {
+    "id": 10,
+    "task": "More project work",
+    "complete": false
+  }, {
+    "id": 11,
+    "task": "Pick up daughter from school",
+    "complete": true
+  }, {
+    "id": 12,
+    "task": "Play time",
+    "complete": true
+  }, {
+    "id": 13,
+    "task": "Dinner",
+    "complete": false
+  }, {
+    "id": 14,
+    "task": "Watch Bluey",
+    "complete": false
+  }, {
+    "id": 15,
+    "task": "Do dishes",
+    "complete": false
+  }, {
+    "id": 16,
+    "task": "Get ready for bed",
+    "complete": false
+  }, {
+    "id": 17,
+    "task": "Brush teeth",
+    "complete": true
+  }, {
+    "id": 18,
+    "task": "Go to Bed",
+    "complete": false
+  }]
