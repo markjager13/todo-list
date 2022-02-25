@@ -25,3 +25,7 @@ code {
 .strike {
   text-decoration: line-through;
 }
+
+button {
+  margin: 20px;
+}
