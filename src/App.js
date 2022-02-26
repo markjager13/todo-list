@@ -4,6 +4,7 @@ import data from './data.json';
 // Components
 import Header from "./Header";
 import ToDoList from './ToDoList';
+import ToDoForm from './ToDoForm';
 
 function App() {
   const [ toDoList, setTodoList ] = useState(data);
@@ -40,10 +41,18 @@ function App() {
     setTodoList(filtered);
   }
 
+  const addTask = (userInput) => {
+    let listCopy = [...toDoList];
+    listCopy = [...listCopy, {id: toDoList.length + 1, task: userInput, complete: false}];
+    setTodoList(listCopy);
+
+  }
+
   return (
     <div className="App">
       <Header />
       <ToDoList toDoList={toDoList} handleToggle={handleToggle} handleFilter={handleFilter}/>
+      <ToDoForm addTask={addTask} />
     </div>
   );
 }
